@@ -39,6 +39,6 @@ module.exports = {
       },
     }],
     'object-property-newline': 'error',
-	'linebreak-style': ['error', 'windows'],
+	'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
   },
 };
