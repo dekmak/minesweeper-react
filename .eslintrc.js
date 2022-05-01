@@ -39,5 +39,6 @@ module.exports = {
       },
     }],
     'object-property-newline': 'error',
+	'linebreak-style': ['error', 'windows'],
   },
 };

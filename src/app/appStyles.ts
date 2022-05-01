@@ -21,6 +21,7 @@ export const useAppStyles = makeStyles({
     width: '100%',
     height: '100%',
     display: 'flex',
+    flexFlow: 'column',
     justifyContent: 'center',
     alignItems: 'center',
   },

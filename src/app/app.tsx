@@ -91,8 +91,8 @@ function App() {
             </Grid>
             <br/>
             <br/>
-            <Footer></Footer>
           </Item>
+          <Footer></Footer>
         </div>
       </ThemeProvider>
     </>
